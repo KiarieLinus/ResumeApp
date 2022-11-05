@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="offer">"Qu'est-ce que j'offre ?"</string>
+    <string name="portfolio">Mon portfolio</string>
+    <string name="about_me">\nJe suis un passionné d\'Android depuis quelques années maintenant. J\'utilise principalement Kotlin et Java dans mon code. Parcourez mon portfolio, écoutez mon argumentaire éclair et discutons.</string>
+    <string name="title">Développeur Android</string>
+
+    <string-array name="what_i_offer">
+        <item>Solide compréhension du cycle complet de développement mobile</item>
+        <item>Bonne exposition au développement, à la conception et aux tests d\'applications</item>
+        <item>Maîtrise de la conception orientée objet, des structures de données, de la résolution de problèmes, de l\'analyse de la complexité et du débogage</item>
+        <item>Bonne connaissance du contrôle de version et du suivi des bogues</item>
+        <item>Capacité à travailler de longues heures pour respecter efficacement tout délai fixé</item>
+        <item>Bonne compréhension des bibliothèques et techniques tierces telles que Dagger Hilt, Koin et Retrofit</item>
+        <item>Dévouement à l\'amélioration par la découverte, l\'évaluation et la mise en œuvre de nouvelles technologies</item>
+        <item>Excellentes compétences en communication, tant à l\'oral qu\'à l\'écrit</item>
+        <item>Plus important encore, j\'offre une tête froide sous pression et de bonnes plaisanteries</item>
+    </string-array>
+</resources>

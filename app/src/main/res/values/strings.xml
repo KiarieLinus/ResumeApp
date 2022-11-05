@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">MyResume</string>
+    <string name="offer">What Do I Offer?</string>
+    <string name="portfolio">My Portfolio</string>
+    <string name="slackId" translatable="false">\@Linus</string>
+    <string name="about_me">I have been an avid Android learner for a few years now. I mainly use Kotlin and Java in my code. Go through my portfolio, listen to my elevator pitch and let\'s chat.</string>
+    <string name="title">Android Developer</string>
+    <string name="education" translatable="false">Relevant Education</string>
+    <string name="title_education" translatable="false">Google Africa Developer Scholarship</string>
+    <string name="detail_education" translatable="false">I undertook the Google Africa Developer Scholarship programme for six months. I ended up earning the final scholarship and attaining the project phase as well as certification. In the end it provided a solid mobile development foundation as well as making it easier for me to learn other programming languages</string>
+    <string name="projects" translatable="false">Feature Projects</string>
+    <string name="title_spice" translatable="false">Spice</string>
+    <string name="detail_spice" translatable="false">This is a recipe application built using JetPack Compose. When making the app I solidified my skills in compose, kotlin, dependency injection with dagger-hilt, room data storage as well as retrofit since the app fetches data from the spoonacular api</string>
+    <string name="title_todo" translatable="false">MyToDo</string>
+    <string name="detail_todo" translatable="false">This application is written in Kotlin and uses the usual xmls. What I learnt while making the app includes: dependency injection using koin, implementation of work manager, test-diven-development as well as use of room for data storage</string>
+
+    <string-array name="what_i_offer">
+        <item>Solid understanding of the full mobile development cycle</item>
+        <item>Good exposure to overall application development, design and testing</item>
+        <item>Proficiency in object-oriented design, data structures, problem solving, complexity analysis and debugging</item>
+        <item>Good knowledge of version control and bug tracking</item>
+        <item>Ability to work long hours to meet any set deadline efficiently</item>
+        <item>Good understanding in third-party libraries and techniques such as DaggerHilt, Koin and Retrofit</item>
+        <item>Dedication to improvement by discovering, evaluating and implementing new technologies</item>
+        <item>Excellent communication skills, both oral and written</item>
+        <item>Most importantly, I offer a cool head under pressure and good banter</item>
+    </string-array>
+
+</resources>
