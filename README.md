@@ -18,13 +18,14 @@ You can click [Appetize.io](https://appetize.io/app/7zd2z6zgfdnrhkdholw5deixdq?d
 
 ## Design & Features
 
-The app has three screen name the ProfileScreen, OfferScreen and PortfolioScreen which provide my contact details, what i can offer your group and a description of some of my projects respectively
+The app has three screen name the ProfileScreen, OfferScreen and PortfolioScreen which provide my contact details, what i can offer your group and a description of some of my projects respectively. The app can be localised to either french or english
 
 ## Features to be added
 
 - Animations: Just a few to make the UI nicer, it is not the main objective on this app to work on design issues
 - Theming: Improve on the theming and make it a lot sharper
 - Project Links: To ensure proof of work
+- More Localisation: Add more languages to the app to increase accessibility
 
 ## Challenges
 
