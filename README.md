@@ -13,8 +13,8 @@ You can click [Appetize.io](https://appetize.io/app/7zd2z6zgfdnrhkdholw5deixdq?d
 
 ## Libraries
 
-Navigation Compose : library to add navigation elements to your compose projects
-Dagger-Hilt : a library for  dependency injection in Android apps that works seamlessly with Compose.
+- Navigation Compose : library to add navigation elements to your compose projects
+- Dagger-Hilt : a library for  dependency injection in Android apps that works seamlessly with Compose.
 
 ## Design & Features
 
