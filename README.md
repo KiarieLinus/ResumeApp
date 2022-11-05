@@ -5,7 +5,11 @@ The ResumeApp is created in kotlin to display a version of my resume and show ba
 
 ## Installation
 
-You can click [MyResume](https://pip.pypa.io/en/stable/) to install the app.
+You can click [MyResume](https://drive.google.com/file/d/1w6yoLHNkQDARuzjYeiLhL0w-wzZdEaSa/view?usp=share_link) to install the app.
+
+## Appetizer
+
+You can click [Appetize.io](https://appetize.io/app/7zd2z6zgfdnrhkdholw5deixdq?device=pixel4&osVersion=10.0&scale=75) to view the app
 
 ## Libraries
 
