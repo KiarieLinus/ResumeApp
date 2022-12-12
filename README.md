@@ -26,7 +26,3 @@ The app has three screen name the ProfileScreen, OfferScreen and PortfolioScreen
 - Theming: Improve on the theming and make it a lot sharper
 - Project Links: To ensure proof of work
 - More Localisation: Add more languages to the app to increase accessibility
-
-## Challenges
-
-- Catching the bug: Was under the weather this week lost too much time but we must persevere as always
