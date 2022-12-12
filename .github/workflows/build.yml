@@ -1,12 +1,22 @@
-name: Dev CLI
+name: Feature branch test and build
 
-on: [ push, pull_request ]
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
 
 jobs:
-  test:
-    name: Run Unit Tests
+  unit-test:
+    name: Running local test
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
 
@@ -20,20 +30,13 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
-      - name: Unit tests
-        run: ./gradlew test --stacktrace
+      - name: Run Tests
+        run: ./gradlew test
 
-  analyze:
-    name: Run detekt
+  build:
+    needs: [ unit-test ]
+    name: Build Project
     runs-on: ubuntu-latest
-
-    steps:
-      - uses: natiginfo/action-detekt-all@1.21.0
-
-  apk:
-    name: Build APK
-    runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
 
@@ -47,11 +50,5 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
-      - name: Build apk
+      - name: Build Project
         run: ./gradlew assembleDebug --stacktrace
-
-      - name: Create app artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: app
-          path: app/build/outputs/apk/debug/app-debug.apk
